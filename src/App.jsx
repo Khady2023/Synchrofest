@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Login from './pages/Login'
@@ -7,8 +6,6 @@ import Signup from './pages/Signup'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
     <div className='w-screen h-screen px-8 lg:px-20 md:px-20 bg-stone-100'>
