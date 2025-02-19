@@ -1,5 +1,4 @@
-import React from 'react'
-
+/* eslint-disable react/prop-types */
 const Recommend = ({title}) => {
 
     const pica = "/pic1.jpeg";

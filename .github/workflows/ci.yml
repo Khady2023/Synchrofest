@@ -28,7 +28,7 @@ jobs:
 
       # Step 4: Run Linter (ESLint)
       - name: Run ESLint
-        run: npm run lint
+        run: npm run lint --fix
         continue-on-error: false  # Fails the workflow if linting fails
 
       # Step 5: Build Project
