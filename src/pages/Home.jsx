@@ -88,13 +88,7 @@ const Home = () => {
                 <img src={dance} alt="" className='rounded-r-4xl' />
             </div>
         </div>
-        {/* <div className=''>
-        <ul className='flex space-x-2 sm:space-x-4 lg:space-x-20 md:space-x-15 py-2 md:py-4 lg:ml-30 md:ml-10'>
-            <li className='text-[12px] sm:text-sm font-semibold border border-sky-300 hover:bg-sky-200 sm:p-2 px-2 py-2 sm:px-4 shadow-lg rounded-2xl'>Upcoming show</li>
-            <li className='text-[12px] sm:text-sm font-semibold border border-sky-300 hover:bg-sky-200 sm:p-2 px-2 py-2 sm:px-4 shadow-lg rounded-2xl'>Status</li>
-            <li className='text-[12px] sm:text-sm font-semibold border border-sky-300 hover:bg-sky-200 sm:p-2 px-2 py-2 sm:px-4 shadow-lg rounded-2xl'>Venue</li>
-        </ul>
-        </div> */}
+        
         <Recommend title="Recommended for you"/>
         <Recommend title="Popular Selections"/>
     </div>
