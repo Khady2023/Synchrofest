@@ -1,19 +1,25 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
+import Home from './pages/Home' 
 import Login from './pages/Login'
 import Signup from './pages/Signup'
+import Ticket from './pages/Ticket'
+import Concert from './pages/Concert'
+import Bookseat from './pages/Bookseat'
 
 
 
 function App() {
   return (
     <>
-    <div className='w-screen h-screen px-8 lg:px-20 md:px-20 bg-stone-100'>
+    <div className='w-screen h-screen bg-stone-100'>
       <BrowserRouter>
       <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/login' element={<Login />} />
       <Route path='/signup' element={<Signup />} />
+      <Route path='/ticket' element={<Ticket />} />
+      <Route path='/concert' element={<Concert />} />
+      <Route path='/bookseat' element={<Bookseat />} />
       </Routes>
       </BrowserRouter>
 
