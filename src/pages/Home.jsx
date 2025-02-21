@@ -1,22 +1,16 @@
-import React from 'react'
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import menu from '/menu.png';
 import close from '/close.png';
 import Recommend from './Recommend';
-import Ticket from './Ticket';
-import Concert from './Concert';
-import Login from './Login';
 
 
 const Home = () => {
     const dance = "/dance.jpg";
     const vibes = "/vibes.png";
-    const arrow = "/arrow.png";
 
     const [toggle, setToggle] = useState(false);
-  const [active, setActive] = useState('');
+  const [, setActive] = useState('');
   
 
     const navLink = [

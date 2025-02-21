@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Bookseat = () => {
   // Initialize the seating arrangement as a 2D array (rows and seats)

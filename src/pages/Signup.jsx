@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Signup = () => {
   return (
     <div className='m-auto py-40 md:py-80 lg:py-35'>
