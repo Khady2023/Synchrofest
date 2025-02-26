@@ -11,7 +11,7 @@ import Bookseat from './pages/Bookseat'
 function App() {
   return (
     <>
-    <div className='w-screen h-screen bg-stone-100'>
+    <div className='w-screen h-full bg-stone-100'>
       <BrowserRouter>
       <Routes>
       <Route path='/' element={<Home />} />

@@ -41,7 +41,7 @@ const Bookseat = () => {
                   color: "white",
                   margin: "10px",
                   borderRadius: "50%",
-                  padding: "10px",
+                  padding: "12px",
                   cursor: isBooked ? "not-allowed" : "pointer",
                 }}
                 disabled={isBooked} // Disable the button if the seat is already booked

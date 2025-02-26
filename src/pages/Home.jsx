@@ -24,11 +24,11 @@ const Home = () => {
           title: 'Concert',
           route: '/concert'
         },
-        {
-          id: '3',
-          title: 'Live update',
-          route: '/login' // Updated route to use the id
-        }
+        // {
+        //   id: '3',
+        //   title: 'Live update',
+        //   route: '/login' // Updated route to use the id
+        // }
       ];
 
   return (
@@ -58,11 +58,11 @@ const Home = () => {
         </div>
 
         { <div className='hidden lg:flex justify-right '>
-            <ul className='lg:flex flex-row space-x-20 lg:pl-130 md:hidden '>
+            <ul className='lg:flex flex-row space-x-30 lg:pl-130 md:hidden '>
                 <li className='hover:text-fuchsia-500 hover:border-b-2'><Link to="/ticket">Tickets</Link></li>
                 
                 <li className='hover:text-fuchsia-500 hover:border-b-2'><Link to="/concert">Concert</Link></li>
-                <li className='hover:text-fuchsia-500 hover:border-b-2'><button><Link to="/login">Live update</Link></button></li>
+                {/* <li className='hover:text-fuchsia-500 hover:border-b-2'><button><Link to="/login">Live update</Link></button></li> */}
             </ul>
         </div> }
 
@@ -72,7 +72,7 @@ const Home = () => {
         </div>
         <div className='w-full flex flex-row rounded-2xl sm:rounded-4xl my-6 lg:pl-40 md:pl-10'>
             <div className='w-4/12 bg-sky-300  rounded-l-4xl'>
-                <img src={vibes} alt="" className='w-10 sm:w-20 lg:w-60 md:w-30 ml-4 lg:ml-12 md:ml-8 mt-2 md:mt-4' />
+                <img src={vibes} alt="" className='w-12 sm:w-20 lg:w-60 md:w-30 ml-4 lg:ml-12 md:ml-8 mt-2 md:mt-4' />
                
                     <p className='flex w-full sm:w-7/12 md:w-9/12 border-fuchsia-500 text-fuchsia-600 lg:text-md md:text-sm text-[7px] md:shadow-sm rounded-2xl py-2 sm:py-2 lg:mx-8 md:mx-2 px-2 sm:px-6 md:px-2  md:font-bold '>Listen to Diverse Music Explore different genres, cultures, and styles.</p>
                     
